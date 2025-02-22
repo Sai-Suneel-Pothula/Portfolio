@@ -54,7 +54,7 @@ function Home() {
     <div className="homeContent">
       <div className="contentContainer">
         <h3>Hello, Iam</h3>
-        <h1>Pradeep Tatikayala</h1>
+        <h1>Sai Suneel Pothula</h1>
         <h3>And I'm a </h3>
         <p className="typingAnimation">
           {typingText}
