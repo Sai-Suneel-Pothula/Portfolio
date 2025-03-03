@@ -27,21 +27,27 @@ function Contact() {
               <FaUser className="contactIcon" />
               <div className="contactDetails">
                 <h3>Name</h3>
-                <p>Satyanarayana Jakkampudi</p>
+                <p>Sai Suneel Pothula</p>
               </div>
             </div>
             <div className="contactItem">
               <FaPhoneAlt className="contactIcon" />
               <div className="contactDetails">
                 <h3>Mobile</h3>
-                <p>+91 7330725744</p>
+                <p><a href="tel:+917981690271" className="phoneLink">
+                  +91 7981690271
+                </a></p>
               </div>
             </div>
             <div className="contactItem">
               <FaEnvelope className="contactIcon" />
               <div className="contactDetails">
                 <h3>Email</h3>
-                <p>satyanarayana0082@gmail.com</p>
+                <p>
+                  <a href="mailto:saisuneelpotula1@@gmail.com" className="emailLink">
+                    saisuneelpotula1@gmail.com
+                  </a>
+                </p>
               </div>
             </div>
             <div className="contactItem">
@@ -49,7 +55,7 @@ function Contact() {
               <div className="contactDetails">
                 <h3>LinkedIn</h3>
                 <a
-                  href="https://www.linkedin.com/in/satya1435/"
+                  href="https://www.linkedin.com/in/sai-suneel-pothula?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BctNyTk8URjqmK3qyQWOwTQ%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -113,7 +119,7 @@ function Contact() {
       </div>
       <div className="footer">
         <p className="footerContent">
-          Created by Satyanarayana Jakkampudi | <FaCopyright className="copyrightIcon" />{" "}
+          Created by Sai Suneel Pothula | <FaCopyright className="copyrightIcon" />{" "}
           2025 All rights reserved.
         </p>
       </div>

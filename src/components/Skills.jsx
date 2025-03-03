@@ -3,10 +3,10 @@ import "../styles/Skills.css";
 
 function Skills() {
   const skills = [
-    { name: "Java", proficiency: 90 },
+    { name: "Java", proficiency: 80 },
     { name: "HTML", proficiency: 95 },
     { name: "CSS", proficiency: 90 },
-    { name: "React", proficiency: 75 },
+    { name: "React.js", proficiency: 75 },
     { name: "JavaScript", proficiency: 75 },
     { name: "MySQL", proficiency: 80 },
   ];
@@ -66,9 +66,8 @@ function Skills() {
                       cy="50"
                       r="40"
                       style={{
-                        strokeDasharray: `${
-                          (2 * Math.PI * 40 * skill.proficiency) / 100
-                        } ${2 * Math.PI * 40}`,
+                        strokeDasharray: `${(2 * Math.PI * 40 * skill.proficiency) / 100
+                          } ${2 * Math.PI * 40}`,
                         transform: "rotate(-90deg)",
                         transformOrigin: "center",
                       }}

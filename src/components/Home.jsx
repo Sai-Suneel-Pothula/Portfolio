@@ -47,14 +47,14 @@ function Home() {
   };
 
   const showResume = () => {
-    window.open("https://satya0082.github.io/MyResume/", "_blank");
+    window.open("https://github.com/Sai-Suneel-Pothula/MyResume/blob/main/Resume%20Application%20Suneel.pdf", "_blank");
   };
 
   return (
     <div className="homeContent">
       <div className="contentContainer">
         <h3>Hello, Iam</h3>
-        <h1>Satyanarayana Jakkampudi</h1>
+        <h1>Sai Suneel Pothula</h1>
         <h3>And I'm a </h3>
         <p className="typingAnimation">
           {typingText}
